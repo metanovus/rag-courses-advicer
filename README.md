@@ -27,7 +27,7 @@
 ```
 rag-courses-advicer/                # Основная папка проекта
 ├── LICENSE                         # Лицензия проекта
-├── notebooks
+├── notebook
 │   └── rag-chatbot-pipeline-full.ipynb  # Ноутбук с полным решением задания
 ├── requirements.txt                # Зависимости проекта
 └── streamlit_app                   # Демонстрация через Streamlit
