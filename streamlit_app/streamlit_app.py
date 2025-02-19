@@ -10,7 +10,7 @@ def start_messaging(rag_top_k=5, max_memory_size=4096):
     '''Функция для функционирования чата'''
     llm = ChatMistralAI(
         model="mistral-small-latest",
-        api_key='Rwfanxaxljkr1MRPcb0L9ogDf0e81zQf',
+        api_key='#############',
         streaming=True
     )
 
