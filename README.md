@@ -10,13 +10,15 @@
 
 * Построенный на основе RAG умный чат-бот на основе технологий Mistral AI + LangChain с визуализацией в Streamlit.
 * Все данные парсятся с помощью BeautifulSoup4 и requests полностью автоматически.
+* С помощью zero-shot-классификации моделью 🤗 [DeepPavlov/rubert-base-cased-sentence](https://huggingface.co/DeepPavlov/rubert-base-cased-sentence) спарсенные данные классифицируются для лучшей структуры.
+* Данные после классификации векторизируются с помощью модели 🤗 [cointegrated/rubert-base-cased-nli-threeway](https://huggingface.co/cointegrated/rubert-base-cased-nli-threeway)
 * Спарсенные данные надёжно хранятся в векторной БД Qdrant.
 * Чат-бот на основе RAG можно переделать под любые другие данные, нужно лишь изменить код парсинга под свои нужды.
 
 ## Использованные технологии ⚙️
 <p align="center">
   <a href="https://go-skill-icons.vercel.app/">
-    <img src="https://go-skill-icons.vercel.app/api/icons?i=linux,python,pycharm,langchain,numpy,docker,streamlit,pandas,qdrant&theme=dark"/>
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=linux,python,pycharm,langchain,numpy,docker,streamlit,pandas,qdrant,huggingface&theme=dark"/>
   </a>
 </p>
 
