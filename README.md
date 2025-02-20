@@ -18,7 +18,7 @@
 ## Использованные технологии ⚙️
 <p align="center">
   <a href="https://go-skill-icons.vercel.app/">
-    <img src="https://go-skill-icons.vercel.app/api/icons?i=linux,python,pycharm,langchain,numpy,docker,streamlit,pandas,qdrant,huggingface&theme=dark"/>
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=linux,python,pycharm,langchain,numpy,docker,streamlit,pandas,qdrant,huggingface,mistral&theme=dark"/>
   </a>
 </p>
 
